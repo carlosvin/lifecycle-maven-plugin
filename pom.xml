@@ -6,6 +6,11 @@
 	<artifactId>lifecycle-maven-plugin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<url>https://github.com/carlosvin/lifecycle-maven-plugin</url>
+	<scm>
+		<developerConnection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</developerConnection>
+	</scm>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -21,11 +26,6 @@
 			<artifactId>maven-plugin-tools-annotations</artifactId>
 			<version>3.5</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.atlassian.commonmark</groupId>
-			<artifactId>commonmark</artifactId>
-			<version>0.11.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.maven.shared</groupId>
