@@ -7,8 +7,8 @@
 			</implementation>
 			<configuration>
 				<phases>
-					<compile>${groupId}:${artifactId}:build</compile>
-					<test>${groupId}:${artifactId}:test</test>
+					<compile>com.github.carlosvin.plugins:lifecycle-maven-plugin:build</compile>
+					<test>com.github.carlosvin.plugins:lifecycle-maven-plugin:test</test>
 				</phases>
 			</configuration>
 		</component>
