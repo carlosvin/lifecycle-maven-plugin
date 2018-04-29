@@ -5,20 +5,22 @@
 	<groupId>com.github.carlosvin.plugins</groupId>
 	<artifactId>lifecycle-maven-plugin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-    <description>Example of custom maven plugin overriding default maven lifecycle</description>
 
+	<name>lifecycle-maven-plugin</name>
 	<url>https://github.com/carlosvin/lifecycle-maven-plugin</url>
-	<scm>
-		<developerConnection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
+	<description>Example of custom Maven plugin overriding default lifecycle</description>
 
 	<developers>
 		<developer>
-			<name>Carlos Martin Sanchez</name>
 			<email>carlosvin@gmail.com</email>
+			<name>Carlos Martin Sanchez</name>
+			<url>http://carlosvin.github.io</url>
 		</developer>
 	</developers>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</developerConnection>
+	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -50,12 +52,6 @@
 	</dependencies>
 
 	<build>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
