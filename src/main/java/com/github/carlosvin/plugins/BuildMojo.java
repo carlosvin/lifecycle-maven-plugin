@@ -1,4 +1,4 @@
-package org.apache.maven.plugins;
+package com.github.carlosvin.plugins;
 
 import java.io.BufferedWriter;
 import java.io.File;

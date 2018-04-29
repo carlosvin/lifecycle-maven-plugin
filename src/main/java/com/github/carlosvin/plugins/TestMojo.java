@@ -1,4 +1,4 @@
-package org.apache.maven.plugins;
+package com.github.carlosvin.plugins;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
