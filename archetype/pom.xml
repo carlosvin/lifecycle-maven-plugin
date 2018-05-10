@@ -4,7 +4,7 @@
 
 	<groupId>com.github.carlosvin.archetype</groupId>
 	<artifactId>lifecycle-maven-plugin-archetype</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>lifecycle-maven-plugin-archetype</name>
@@ -28,6 +28,14 @@
 		</pluginManagement>
 
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+				<tagNameFormat>v@{project.version}</tagNameFormat>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
