@@ -6,14 +6,10 @@
 
 	<groupId>com.github.carlosvin.archetype</groupId>
 	<artifactId>lifecycle-maven-plugin-archetype</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>lifecycle-maven-plugin-archetype</name>
-
-	<scm>
-		<developerConnection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</developerConnection>
-	</scm>
 
 	<build>
 		<extensions>
@@ -123,6 +119,7 @@
 	</licenses>
 
 	<scm>
+		<connection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</developerConnection>
 	</scm>
 
