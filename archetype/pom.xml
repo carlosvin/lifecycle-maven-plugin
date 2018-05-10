@@ -4,7 +4,7 @@
 
 	<groupId>com.github.carlosvin.archetype</groupId>
 	<artifactId>lifecycle-maven-plugin-archetype</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>lifecycle-maven-plugin-archetype</name>
@@ -127,7 +127,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/carlosvin/lifecycle-maven-plugin.git</connection>
 		<developerConnection>scm:git:https://github.com/carlosvin/lifecycle-maven-plugin.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>v0.0.3</tag>
   </scm>
 
 	<distributionManagement>
