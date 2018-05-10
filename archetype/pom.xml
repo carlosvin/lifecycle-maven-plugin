@@ -4,9 +4,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.carlosvin.archetype</groupId>
+	<groupId>com.github.carlosvin.artifact</groupId>
 	<artifactId>lifecycle-maven-plugin-archetype</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>lifecycle-maven-plugin-archetype</name>
@@ -119,8 +119,8 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</connection>
-		<developerConnection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</developerConnection>
+		<connection>scm:git:https://github.com/carlosvin/lifecycle-maven-plugin.git</connection>
+		<developerConnection>scm:git:https://github.com/carlosvin/lifecycle-maven-plugin.git</developerConnection>
 	</scm>
 
 	<distributionManagement>
