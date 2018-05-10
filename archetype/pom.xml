@@ -127,8 +127,8 @@
 	<scm>
 		<connection>scm:git:https://github.com/carlosvin/lifecycle-maven-plugin.git</connection>
 		<developerConnection>scm:git:https://github.com/carlosvin/lifecycle-maven-plugin.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+		<url>https://github.com/carlosvin/lifecycle-maven-plugin.git</url>
+    </scm>
 
 	<distributionManagement>
 		<snapshotRepository>
