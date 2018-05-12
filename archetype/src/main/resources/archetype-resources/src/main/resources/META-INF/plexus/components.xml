@@ -10,8 +10,8 @@
 			</implementation>
 			<configuration>
 				<phases>
-					<compile>${package}:${artifactId}:build</compile>
-					<test>${package}:${artifactId}:test</test>
+					<compile>${groupId}:${artifactId}:build</compile>
+					<test>${groupId}:${artifactId}:test</test>
 				</phases>
 			</configuration>
 		</component>
