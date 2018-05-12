@@ -1,0 +1,3 @@
+/home/carlos/workspace/lifecycle-maven-plugin/example/src/main/java/com/github/carlosvin/plugins/BuildMojo.java
+/home/carlos/workspace/lifecycle-maven-plugin/example/src/main/java/com/github/carlosvin/plugins/TestMojo.java
+/home/carlos/workspace/lifecycle-maven-plugin/example/target/generated-sources/plugin/HelpMojo.java
